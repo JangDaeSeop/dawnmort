@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <meta property="og:title" content="다음모기지">
+    <meta property="og:description" content="자신에 맞는 담보대출을 찾아보세요.">
+    <meta property="og:image" content="https://ifh.cc/g/jL3hdy.jpg">
+    <meta property="og:image:width" content="250">
+    <meta property="og:image:height" content="200">
+    <title>다음모기지</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/respond.css" />
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/m_menu.js"></script>
+</head>
+<body>
+    <div id="header">
+                <h1><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+                <div class="lnb"><a href="#"><p>무료상담    <b>1833-6190</b></p></a></div>
+                <div class="gnb">
+                    <ul class="nav-depth1">
+                        <li>
+                            <a href="#">담보대출 금리비교</a>
+                            <ul class="nav-depth2">
+                                <li><a href="sub.html">아파트 담보대출</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="m_btn"><img src="img/menu.png" alt="menu"/></a><!-- btn -->
+                <div class="m_menu">
+                    <ul>
+                        <li class="main"><h2><a href="#">담보대출 금리비교</a></h2>
+                            <ul class="sub">
+                                <li><a href="sub.html">아파트 담보대출</a></li>
+                            </ul>	
+                        </li>
+                    </ul>	
+                </div><!-- m_menu -->
+    </div><!-- header end -->       
+    <div id="visual">
+                <div class="slide">
+                    <div class="slideList">
+                        <div class="slideImg"><a href="#"><img src="img/slide1.png" alt="slide1"></a></div>
+                        <div class="slideImg"><a href="#"><img src="img/slide2.png" alt="slide2"></a></div>
+                        <div class="slideImg"><a href="#"><img src="img/slide3.png" alt="slide3"></a></div>
+                        <div class="slideImg"><a href="#"><img src="img/slide4.png" alt="slide4"></a></div>
+                        <div class="slideImg"><a href="#"><img src="img/slide5.png" alt="slide5"></a></div>
+                    </div>
+                    <div class="slideList2">
+                        <div class="slideImg"><a href="#"><img src="img/slide1.png" alt="slide1"></a></div>
+                        <div class="slideImg"><a href="#"><img src="img/slide2.png" alt="slide2"></a></div>
+                        <div class="slideImg"><a href="#"><img src="img/slide3.png" alt="slide3"></a></div>
+                        <div class="slideImg"><a href="#"><img src="img/slide4.png" alt="slide4"></a></div>
+                        <div class="slideImg"><a href="#"><img src="img/slide5.png" alt="slide5"></a></div>
+                    </div>
+                    <div class="slideList3">
+                        <div class="slideImg"><a href="#"><img src="img/mslide1.png" alt="slide1"></a></div>
+                        <div class="slideImg"><a href="#"><img src="img/mslide2.png" alt="slide2"></a></div>
+                        <div class="slideImg"><a href="#"><img src="img/mslide3.png" alt="slide3"></a></div>
+                        <div class="slideImg"><a href="#"><img src="img/mslide4.png" alt="slide4"></a></div>
+                        <div class="slideImg"><a href="#"><img src="img/mslide5.png" alt="slide5"></a></div>
+                    </div>
+                </div>
+    </div><!-- visual end -->
+    <div id="conternts">
+            <div class="cont1"><!-- contents1 -->
+                <div class="center">
+                    <hgroup>
+                        <h2>전국 금융사 담보대출<br><strong>금리/한도 실시간 비교</strong></h2>
+                    </hgroup>
+                    <div class="sch">
+                        <form name="sfrm" method="post" action="/html/sub0201.php">
+                        <input type="hidden" name="search_ok" id="search_ok" value="Y">                   
+                            <ul>
+                                <li>
+                                    <label for="sido" class="hidden">광역시/도 선택</label>
+                                        <select name="sido" id="sido" onchange="chg_area('sido')" required="" title="광역시/도" class="ip_comm">
+                                            <option value="">광역시/도</option>  
+                                            <option value="서울특별시">서울특별시</option>
+                                            <option value="인천광역시">인천광역시</option>
+                                            <option value="부산광역시">부산광역시</option>
+                                            <option value="대구광역시">대구광역시</option>
+                                            <option value="광주광역시">광주광역시</option>
+                                            <option value="대전광역시">대전광역시</option>
+                                            <option value="울산광역시">울산광역시</option>
+                                            <option value="경기도">경기도</option>
+                                            <option value="강원도">강원도</option>
+                                            <option value="경상남도">경상남도</option>
+                                            <option value="경상북도">경상북도</option>
+                                            <option value="전라남도">전라남도</option>
+                                            <option value="전라북도">전라북도</option>
+                                            <option value="충청남도">충청남도</option>
+                                            <option value="충청북도">충청북도</option>
+                                            <option value="제주특별자치도">제주특별자치도</option>
+                                            <option value="세종특별자치시">세종특별자치시</option>                    
+                                        </select>
+                                </li>
+                                <li>
+                                    <label for="sigugun" class="hidden">시/군/구 선택</label>
+                                        <select name="sigugun" id="sigugun" onchange="chg_area('sigugun')" required="" title="시/군/구" class="ip_comm">
+                                            <option value="">시/군/구</option>
+                                        </select>
+                                </li>
+                                <li>
+                                    <label for="dong" class="hidden">읍/면/동 선택</label>
+                                        <select name="dong" id="dong" onchange="chg_area('dong')" required="" title="읍/면/동" class="ip_comm">
+                                            <option value="">읍/면/동</option>
+                                        </select>
+                                </li>
+                                <li class="span2">
+                                    <label for="apt" class="hidden">아파트 선택</label>
+                                        <select name="apt" id="apt" onchange="chg_area('apt')" required="" title="아파트" class="ip_comm">
+                                            <option value="">아파트</option>
+                                        </select>
+                                </li>
+                                <li>
+                                    <label for="pyung" class="hidden">면적</label>
+                                        <select name="pyung" id="pyung" required="" title="면적" class="ip_comm">
+                                            <option value="">면적</option>
+                                         </select>
+                                </li>
+                                <li class="cont1_btn">
+                                    <input type="submit" value="조회하기" class="btn_sm">
+                                </li>
+                            </ul>                   
+                        </form>                    
+                    </div>
+                </div> 
+            </div>
+         <div class="inner">
+            <div class="cont2_3">
+                <div class="container">
+                    <div class="tab"><!-- contents2 -->
+                        <!-- 활성화 : on 추가  -->
+                            <section class="on">
+                                <h2 class="sec-tit"><!-- tab1 -->
+                                    <a href="#">실시간 접수현황</a>
+                                </h2>
+                                <div class="sec-cont">
+                                    <div class="box-wrap">
+                                        <div class="box_1">
+                                            <div class="box1"><p>아파트 담보대출<b>이○○님</b><span>상담대기</span></p></div>
+                                            <div class="box2"><p>빌라/주택 담보대출<b>김○○님</b><span>상담대기</span></p></div>
+                                            <div class="box3"><p>아파트 담보대출<b>박○○님</b><span>상담대기</span></p></div>
+                                            <div class="box4"><p>아파트 담보대출<b>박○○님</b><span class="span1">상담완료</span></p></div>
+                                            <div class="box5"><p>아파트 담보대출<b>장○○님</b><span>상담대기</span></p></div>
+                                            <div class="box6"><p>아파트 담보대출<b>최○○님</b><span>상담대기</span></p></div>
+                                            <div class="box7"><p>아파트 담보대출<b>김○○님</b><span>상담대기</span></p></div>
+                                            <div class="box8"><p>아파트 담보대출<b>박○○님</b><span>상담대기</span></p></div>
+                                            <div class="box9"><p>아파트 담보대출<b>오○○님</b><span class="span1">상담완료</span></p></div>
+                                            <div class="box10"><p>빌라/주택 담보대출<b>이○○님</b><span class="span1">상담완료</span></p></div>
+                                            <div class="box11"><p>빌라/주택 담보대출<b>원○○님</b><span>상담대기</span></p></div>
+                                            <div class="box12"><p>아파트 담보대출<b>장○○님</b><span>상담대기</span></p></div>
+                                            <div class="box13"><p>아파트 담보대출<b>유○○님</b><span>상담대기</span></p></div>
+                                            <div class="box14"><p>아파트 담보대출<b>이○○님</b><span class="span1">상담완료</span></p></div>
+                                            <div class="box15"><p>아파트 담보대출<b>한○○님</b><span class="span1">상담완료</span></p></div>
+                                            <div class="box16"><p>아파트 담보대출<b>임○○님</b><span class="span1">상담완료</span></p></div>
+                                            <div class="box17"><p>빌라/주택 담보대출<b>김○○님</b><span class="span1">상담완료</span></p></div>
+                                            <div class="box18"><p>아파트 담보대출<b>이○○님</b><span class="span1">상담완료</span></p></div>
+                                            <div class="box19"><p>아파트 담보대출<b>이○○님</b><span>상담대기</span></p></div>
+                                            <div class="box20"><p>아파트 담보대출<b>박○○님</b><span>상담대기</span></p></div>
+                                            <div class="box21"><p>아파트 담보대출<b>김○○님</b><span>상담대기</span></p></div>
+                                            <div class="box22"><p>빌라/주택 담보대출<b>김○○님</b><span>상담대기</span></p></div>
+                                            <div class="box23"><p>아파트 담보대출<b>이○○님</b><span>상담대기</span></p></div>
+                                            <div class="box24"><p>아파트 담보대출<b>장○○님</b><span class="span1">상담완료</span></p></div>
+                                            <div class="box25"><p>아파트 담보대출<b>장○○님</b><span>상담대기</span></p></div>
+                                            <div class="box26"><p>아파트 담보대출<b>박○○님</b><span>상담대기</span></p></div>
+                                            <div class="box27"><p>빌라/주택 담보대출<b>김○○님</b><span>상담대기</span></p></div>
+                                            <div class="box28"><p>빌라/주택 담보대출<b>이○○님</b><span class="span1">상담완료</span></p></div>
+                                            <div class="box29"><p>아파트 담보대출<b>주○○님</b><span class="span1">상담완료</span></p></div>
+                                            <div class="box30"><p>아파트 담보대출<b>이○○님</b><span>상담대기</span></p></div>
+                                            <div class="box31"><p>아파트 담보대출<b>안○○님</b><span>상담대기</span></p></div>
+                                            <div class="box32"><p>아파트 담보대출<b>김○○님</b><span class="span1">상담완료</span></p></div>
+                                            <div class="box33"><p>빌라/주택 담보대출<b>최○○님</b><span>상담대기</span></p></div>
+                                            <div class="box34"><p>아파트 담보대출<b>최○○님</b><span class="span1">상담완료</span></p></div>
+                                            <div class="box35"><p>아파트 담보대출<b>이○○님</b><span class="span1">상담완료</span></p></div>
+                                            <div class="box36"><p>아파트 담보대출<b>김○○님</b><span class="span1">상담완료</span></p></div>
+                                            <div class="box37"><p>아파트 담보대출<b>김○○님</b><span>상담대기</span></p></div>
+                                            <div class="box38"><p>아파트 담보대출<b>박○○님</b><span>상담대기</span></p></div>
+                                            <div class="box39"><p>빌라/주택 담보대출<b>원○○님</b><span>상담대기</span></p></div>
+                                            <div class="box40"><p>아파트 담보대출<b>조○○님</b><span class="span1">상담완료</span></p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+                                <h2 class="sec-tit"><!-- tab2 -->
+                                    <a href="#">이용후기</a>
+                                </h2>
+                                <div class="sec-cont">
+                                    <div class="box-wrap">
+                                        <div class="box_2">
+                                            <div class="box1"><p>대출상담 친절하게 잘해주시네요</p></div>
+                                            <div class="box2"><p>빌라 담보대출 알아보고 있었는데 너무 좋아요</p></div>
+                                            <div class="box3"><p>이런게 있는지 몰랐어요. 감사합니다.</p></div>
+                                            <div class="box4"><p>아파트 대출 잘 받았습니다.</p></div>
+                                            <div class="box5"><p>늦었지만 후기 올립니다.</p></div>
+                                            <div class="box6"><p>정말 잘 설명해 주시는 것 같아요!</p></div>
+                                            <div class="box7"><p>감사합니다.</p></div>
+                                            <div class="box8"><p>주택대출 잘받았습니다.</p></div>
+                                            <div class="box9"><p>ㄳㄳ</p></div>
+                                            <div class="box10"><p>처음알았네요 무료 상담이 있는지</p></div>
+                                            <div class="box11"><p>주변사람들한테 알려줘야 겠네요.^^</p></div>
+                                            <div class="box12"><p>아파트 담보대출 알아보고 있었는데 너무 좋아요</p></div>
+                                            <div class="box13"><p>신기하네요!!!</p></div>
+                                            <div class="box14"><p>부모님이 많이 필요로 하셨는데 감사합니다.</p></div>
+                                            <div class="box15"><p>대출 잘 받았어요!!!</p></div>
+                                            <div class="box16"><p>감사합니다!</p></div>
+                                            <div class="box17"><p>상세하게 알려주신점 참고해서 대출 받았습니다.</p></div>
+                                            <div class="box18"><p>좀 잘 설명 하는듯</p></div>
+                                            <div class="box19"><p>감사~감사~</p></div>
+                                            <div class="box20"><p>한번 더 받아봐야 할듯.</p></div>
+                                            <div class="box21"><p>대출상담을 필요한것만 간단하게 알려주시네요.</p></div>
+                                            <div class="box22"><p>대박 대출받았어요!</p></div>
+                                            <div class="box23"><p>주택하나 담보로 대출 받았습니다.</p></div>
+                                            <div class="box24"><p>설명 감사합니다.</p></div>
+                                            <div class="box25"><p>뭐죠? 너무 잘 설명해 주시는데?</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                    </div>
+                    <section class="sec-goto"><!-- contents3 -->
+                        <div class="sec-cont">
+                            <ul class="cont3_btn">
+                                <li>
+                                    <a href="sub.html"><img src="img/icon1.jpg" alt="icon1">
+                                        <i class="las la-user-circle"></i> 아파트 담보대출
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/icon2.jpg" alt="icon2">
+                                        <i class="las la-play-circle"></i> 아파트 전세퇴거자금
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/icon3.jpg" alt="icon3">
+                                        <i class="las la-plus-circle"></i> 빌라 및 주택대출
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/icon4.jpg" alt="icon4">
+                                        <i class="lab la-gg-circle"></i> 오피스텔 대출
+                                    </a>
+                                </li>
+                            </ul> 
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+         <div class="cont4">
+            <div class="inner">
+                <h2 class="cont4_text">나의 대출조건을 알아보고<br><br><strong>최적의 대출상품을 확인해 보세요!</strong></h2>
+                <a href="#">확인하기</a>
+            </div>
+         </div>
+         <div class="cont5">
+                <h2 class="hidden">관련사이트</h2>
+                    <ul class="cont5_1">
+                        <li><a href="http://www.molit.go.kr/portal.do" target="_blank"><img src="img/ft_ban1.gif" alt="한국감정원" title=""></a></li>
+                        <li><a href="http://www.iros.go.kr/PMainJ.jsp" target="_blank"><img src="img/ft_ban2.gif" alt="인터넷등기소" title=""></a></li>
+                        <li><a href="https://www.kinfa.or.kr/index.do" target="_blank"><img src="img/ft_ban3.gif" alt="서민금융진흥원"></a></li>
+                        <li><a href="http://www.kab.co.kr/kab/home/main/main.jsp" target="_blank"><img src="img/ft_ban4.gif" alt="한국감정원"></a></li>
+                        <li><a href="http://www.minwon.go.kr/main?a=AA020InfoMainApp" target="_blank"><img src="img/ft_ban5.gif" alt="민원서류발급" title=""></a></li>
+                    </ul>
+         </div>
+    </div><!-- contents end -->
+    <div id="footer">
+            <div class="inner">
+                <h3><a href="index.html"><img src="img/logo2.png" alt="f_logo"></a></h3>
+                <p class="f_p"><strong>다음모기지는 100% 무료상담 입니다. 대출상담수수료 요구하거나 받는 것은 불법입니다.<br/>
+                    다음모기지는 다수의 저축은행 모집인과 계약되어있는 플랫폼 사이트이며, 팔육일(861)에 관리 및 광고 계약 되어있습니다.</strong><br/><br/>
+                    상호 : 팔육일 (861) 사업자번호 : 593-19-01560 대표자 : 김용기 주소 : 경기도 부천시 부천로 53번길 27, 303호(심곡동, 보정빌라) 업태 : 서비스업 업종 : 금융서비스, 금융컨설팅업<br/><br/>
+                <b>ⓒ 다음모기지. All rights reserved. Hosting by AD COMMUNICATION.</b></p>
+            </div>
+    </div><!-- footer end -->
+<div class="qmenu">
+        <ul>
+            <li class="q1"><a href="http://xn--ok0b52go4h25n13c.com/html/sub0101.php"><img src="img/online_sd3.png" alt="온라인상담"/><span>온라인상담</span></a></li>		   
+            <li class="q2"><a href="https://open.kakao.com/o/skH2rV1d"><img src="img/kakao.png" alt="카톡 상담"/><span>카톡 상담</span></a></li>
+        </ul>
+</div>
+</body>
+
+</html>
